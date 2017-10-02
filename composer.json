@@ -1,0 +1,19 @@
+{
+    "name": "sses-tokyo/PHPMailerWrapper",
+    "description": "PHPMailer Wrapper",
+    "keywords": ["PHPMailer", "wrapper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satoshi Suzuki",
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~6.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "SSESTokyo\\PHPMailerWrapper\\": "src/"
+        }
+    },
+}
