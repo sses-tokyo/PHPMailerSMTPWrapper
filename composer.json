@@ -1,5 +1,5 @@
 {
-    "name": "sses-tokyo/PHPMailerSMTPWrapper",
+    "name": "sses-tokyo/php-mailer-smtp-wrapper",
     "description": "PHPMailer SMTP Wrapper",
     "keywords": ["PHPMailer", "wrapper", "SMTP"],
     "license": "MIT",
