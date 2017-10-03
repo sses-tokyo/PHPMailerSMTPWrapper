@@ -4,27 +4,28 @@
  *
  */
 
-namespace SSESTokyo\PHPMailerWrapper;
+namespace SSESTokyo\PHPMailerSMTPWrapper;
 
 use PHPMailer\PHPMailer\PHPMailer;
 
-class PHPMailerWrapper {
+class PHPMailerSMTPWrapper {
     
     private $mail = null;
 
     /**
      * コンストラクタ
      *
+     * @param int $smpt_debug
      * @param string $smpt_secure
      * @param string $smtp_host
      * @param string $smtp_port
      * @param string $smtp_user
      * @param string $smpt_password
      */
-    public function __construct($smpt_secure, $smtp_host, $smtp_port, $smtp_user, $smpt_password) {
+    public function __construct($smpt_debug, $smpt_secure, $smtp_host, $smtp_port, $smtp_user, $smpt_password) {
         $this->mail = new PHPMailer();
         $this->mail->IsSMTP();
-        $this->mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+        $this->mail->SMTPDebug = $smpt_debug;
         $this->mail->SMTPAuth = true;
         $this->mail->CharSet = 'utf-8';
         $this->mail->SMTPSecure = $smpt_secure;
@@ -44,11 +45,9 @@ class PHPMailerWrapper {
      * @param string $body
      * @param string $fromname
      * @param string $fromaddress
-     * @param string $ccadress
-     * @param string $bccadress
      * @return string
      */
-    function send($to, $subject, $body, $fromname, $fromaddress, $ccadress="", $bccadress="") {
+    function send($to, $subject, $body, $fromname, $fromaddress) {
         $this->mail->From     = $fromaddress;
         $this->mail->Subject = $subject;
         $this->mail->Body = $body;

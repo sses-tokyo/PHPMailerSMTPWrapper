@@ -1,1 +1,1 @@
-# PHPMailerWrapper
+# PHPMailerSMTPWrapper
