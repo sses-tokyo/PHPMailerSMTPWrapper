@@ -3,6 +3,7 @@
     "description": "PHPMailer SMTP Wrapper",
     "keywords": ["PHPMailer", "wrapper", "SMTP"],
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "sses-tokyo"
