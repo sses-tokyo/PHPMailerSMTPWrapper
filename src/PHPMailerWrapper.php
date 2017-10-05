@@ -1,6 +1,6 @@
 <?php
 /**
- * PHPMailer拡張
+ * PHPMailer拡張(SMTP)
  *
  */
 
@@ -15,26 +15,26 @@ class PHPMailerSMTPWrapper {
     /**
      * コンストラクタ
      *
-     * @param int $smpt_debug
-     * @param string $smpt_secure
-     * @param string $smtp_host
-     * @param string $smtp_port
-     * @param string $smtp_user
-     * @param string $smpt_password
+     * @param int $debug
+     * @param string $secure
+     * @param string $host
+     * @param string $port
+     * @param string $user
+     * @param string $password
      */
-    public function __construct($smpt_debug, $smpt_secure, $smtp_host, $smtp_port, $smtp_user, $smpt_password) {
+    public function __construct($debug, $secure, $host, $port, $user, $password) {
         $this->mail = new PHPMailer();
         $this->mail->IsSMTP();
-        $this->mail->SMTPDebug = $smpt_debug;
+        $this->mail->SMTPDebug = $debug;
         $this->mail->SMTPAuth = true;
         $this->mail->CharSet = 'utf-8';
-        $this->mail->SMTPSecure = $smpt_secure;
-        $this->mail->Host = $smtp_host;
-        $this->mail->Port = $smtp_port;
+        $this->mail->SMTPSecure = $secure;
+        $this->mail->Host = $host;
+        $this->mail->Port = $port;
         $this->mail->IsHTML(false);
-        $this->mail->Username = $smtp_user;
-        $this->mail->Password = $smpt_password;
-        $this->mail->SetFrom($smtp_user);
+        $this->mail->Username = $user;
+        $this->mail->Password = $password;
+        $this->mail->SetFrom($user);
     }
     
     /**
@@ -55,7 +55,7 @@ class PHPMailerSMTPWrapper {
         if (strpos($to, ',') !== false) {
             $to_split = explode(',', $to);
             foreach ($to_split as $mail) {
-                $this->mail->AddAddress($mail);
+                $this->mail->AddAddress(trim($mail));
             }
         } else {
             $this->mail->AddAddress($to);

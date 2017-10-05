@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"http",
+				"http_build_query"
+			],
+			[
 				"json",
 				"json_decode"
 			],
@@ -208,6 +212,15 @@
 	],
 	"file_history":
 	[
+		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Wiseboutique.php",
+		"/Users/suzuki/Desktop/decision_coupon/migrations/coupon_shop_dummy.sql",
+		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Ansh46.php",
+		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/developer/scraping/site/Wiseboutique.php",
+		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/exec.php",
+		"/Users/suzuki/Desktop/PHPMailerSMTPWrapper/composer.json",
+		"/Users/suzuki/Desktop/PHPMailerSMTPWrapper/src/PHPMailerWrapper.php",
+		"/Users/suzuki/Desktop/PHPMailerSMTPWrapper/VERSION",
+		"/Users/suzuki/Desktop/PHPMailerSMTPWrapper/README.md",
 		"/Users/suzuki/Desktop/decision_coupon/application/lib/PHPMailer/PHPMailerAutoload.php",
 		"/Users/suzuki/Desktop/decision_coupon/application/lib/PHPMailer/class.phpmailer.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/9540bb9e-3c66-4225-baa2-71c7488addf0/var/www/developer/scraping/site/Railso.php",
@@ -228,7 +241,6 @@
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Genteroma.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Gebnegozionline.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/temporary/cookie/www.gebnegozionline.com.txt",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/exec.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Splash.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Nugnes1920.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Milanoventuno.php",
@@ -243,8 +255,6 @@
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Blueandcream.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/BaseBlu.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Bagheeraboutique.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Ansh46.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Wiseboutique.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Viettishop.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Tizianafausti.php",
 		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/a88a96bb-1fd3-47e2-b3c1-853369f2cd2f/var/www/html/decision_coupon/cron/site/Forzieri.php",
@@ -329,13 +339,7 @@
 		"/Users/suzuki/Desktop/cas/index.html",
 		"/Users/suzuki/Desktop/cas/js/custom.js",
 		"/Users/suzuki/Downloads/cas/index.html",
-		"/Users/suzuki/Desktop/inview_jump/js/main.js",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/07d0509b-e77a-4025-bc41-f35002dec5ce/var/www/developer/scraping/site/Gaudenziboutique.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/07d0509b-e77a-4025-bc41-f35002dec5ce/var/www/developer/scraping/site/Gebnegozionline.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/07d0509b-e77a-4025-bc41-f35002dec5ce/var/www/developer/scraping/exec.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/07d0509b-e77a-4025-bc41-f35002dec5ce/var/www/developer/scraping/site/Viettishop.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/07d0509b-e77a-4025-bc41-f35002dec5ce/var/www/html/description.php",
-		"/private/var/folders/_r/mng79pt95dv8bgnjfvkk9w7w0000gn/T/07d0509b-e77a-4025-bc41-f35002dec5ce/var/www/html/application/view/description.tpl"
+		"/Users/suzuki/Desktop/inview_jump/js/main.js"
 	],
 	"find":
 	{
