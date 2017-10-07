@@ -15,7 +15,7 @@ PHPMailerSMTPWrapper is available on [Packagist](https://packagist.org/packages/
 or run
 
 ```sh
-composer search sses-tokyo/php-mailer-smtp-wrapper
+composer require sses-tokyo/php-mailer-smtp-wrapper
 ```
 
 ## A Simple Example
